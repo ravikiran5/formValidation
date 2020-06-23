@@ -1,0 +1,66 @@
+*{
+	box-sizing: border-box;
+
+}
+@font-face{font-family:Glober-Bold;src:url("//www.medline.com/wp-content/uploads/2016/05/glober-bold.woff") format("woff"),
+			url("//www.medline.com/wp-content/uploads/2016/05/glober-bold.ttf") format("truetype"),
+			url("//www.medline.com/wp-content/uploads/2016/05/glober-bold.eot?#iefix") format("embedded-opentype"),
+			url("//www.medline.com/wp-content/uploads/2016/05/glober-bold.svg") format("svg");
+			font-weight: normal;font-style: normal;font-display: block;}
+
+@font-face{font-family:Glober-Book;src:url("fonts/glober-book.woff") format("woff"),url("//www.medline.com/wp-content/uploads/2016/05/glober-book.ttf") format("truetype"),url("//www.medline.com/wp-content/uploads/2016/05/glober-book.eot?#iefix") format("embedded-opentype"),url("//www.medline.com/wp-content/uploads/2016/05/glober-book.svg") format("svg");font-weight: normal;font-style: normal;font-display: block;}
+a.logo {
+    margin-top: 10px;
+    display: inline-block;
+}
+span.error {
+    
+    color: red;
+}
+form#first_form input, .btn.next, .btn.ok{
+	border-radius: 0px !important;
+}
+.btn.next, .btn.ok{
+	min-width: 120px;
+	text-transform: uppercase;
+}
+input.error{
+	border: 1px solid red;
+}
+h2,h3, h4, h5{
+	font-family: Glober-Book, Arial, Helvetica, sans-serif;
+	margin-top: 0;
+}
+form#first_form label, .subHeadings > h4, .subHeadings > h3 {
+    text-transform: uppercase;
+    font-family: Glober-Book, Arial, Helvetica, sans-serif;
+}
+.swal2-actions button.swal2-confirm.swal2-styled {
+    background-color: #5cb85c;
+    border-radius: 0px;
+    text-transform: uppercase;
+    border: 1px solid #4cae4c;
+}
+#first_form .userInfo{
+	color: #0057b8;
+}
+form#first_form .well.well-sm{
+	background-color: #ff4081;
+	color: #fff;
+	display: none;
+}
+div#swal2-content >table.table.table-bordered{
+	text-align: left !important;
+}
+footer{
+	background-color: #0057b8;
+	padding: 40px 0px;
+}
+footer p{
+	color: #fff ;
+	text-align: center;
+	font-size: 12px;
+}
+.subHeadings > h4, .subHeadings > h3{
+	text-transform: uppercase;
+}
